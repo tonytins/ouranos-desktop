@@ -1,10 +1,10 @@
 {
   "$schema": "https://schema.tauri.app/config/2.0.0-rc",
   "productName": "ouranos",
-  "version": "0.1.0",
+  "version": "0.7.100",
   "identifier": "com.tpaw.ouranos",
   "build": {
-    "frontendDist": "../public",
+    "frontendDist": "../out",
     "devUrl": "http://localhost:3000",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
